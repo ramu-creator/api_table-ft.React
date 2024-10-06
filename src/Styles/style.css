@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: #4CAF50;
+}
+
+/* Styling for the table */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 50px 0 0 70px;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+table th,table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Table Header Styling */
+thead th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Table Body Styling */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+tbody tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  /* Make text bold in the first column */
+tbody td:first-child {
+    font-weight: bold;
+  }
+  
+  /* Add a shadow effect to the table */
+table {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Make table responsive for mobile */
+@media screen and (max-width: 600px) {
+    table {
+      width: 100%;
+      font-size: 16px;
+    }
+  
+table th,table td {
+      padding: 8px;
+    }
+  }
+  
